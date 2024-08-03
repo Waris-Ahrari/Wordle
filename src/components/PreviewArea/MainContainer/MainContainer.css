@@ -1,0 +1,32 @@
+.MainContainer {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+    align-items: center;
+    background-color: #e0f5f7;
+    /* padding: 20px; */
+    padding-bottom: 15px;
+    width: 30%;
+    height: 75%;
+    box-shadow: 0 10px 13px rgba(0,0,0,0.12), 0 10px 12px rgba(0,0,0,0.24);
+}
+
+.TopSection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 60px);
+    height: auto;
+    padding: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #F5F5F5;
+    
+}
+.Heading {
+    font-size: 28px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #2b2d42;
+}

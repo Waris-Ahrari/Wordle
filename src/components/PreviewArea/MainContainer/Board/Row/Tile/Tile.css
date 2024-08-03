@@ -1,0 +1,29 @@
+.Tile{
+    display: flex;
+    border: 1px solid #2b2d42;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    color: #2b2d42;
+}
+
+.YellowBox{
+    border-color: #ffd166;
+    background-color: #ffd166;
+}
+
+.GreenBox{
+    border-color: #76c893;
+    background-color: #76c893;
+}
+
+.GreyBox{
+    border-color: #6c757d;
+    background-color: #6c757d;
+}
